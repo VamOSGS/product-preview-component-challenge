@@ -92,6 +92,16 @@ button {
   align-items: center;
   justify-content: center;
   padding-block: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: hsl(158, 50%, 40%);
+}
+
+button:active {
+  background:hsl(158, 36%, 37%) ;
 }
 
 button img {
