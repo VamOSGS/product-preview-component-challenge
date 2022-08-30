@@ -23,7 +23,17 @@
   <body>
     <main>
       <div class="card">
-        <div class="img-box"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="./images/image-product-mobile.jpg"
+          />
+          <img
+            src="./images/image-product-desktop.jpg"
+            alt="Flowers"
+            style="width: auto"
+          />
+        </picture>
         <div class="content">
           <div>
             <p class="badge">PERFUME</p>
